@@ -45,6 +45,35 @@ Image Processing: NumPy, Pillow
 Dataset: Fire & Non-Fire Images
 
 
+📊 Dataset
+
+This project uses a Fire Detection Dataset from Kaggle, containing labeled images of Fire and Non-Fire scenes.
+
+🔗 Dataset Link:
+https://www.kaggle.com/datasets/phylake1337/fire-dataset
+
+Dataset Structure
+fire_dataset/
+
+├── fire_images/
+
+└── non_fire_images/
+
+
+Dataset Notes
+
+Images are resized to 224 × 224
+
+Pixel values normalized to [-1, 1]
+
+Used for binary classification (Fire / Non-Fire)
+
+📌 Note:
+Dataset is not included in this repository.
+Please download it manually from Kaggle and place it inside the fire_dataset/ folder.
+
+
+
 📂 Project Structure
 
 Fire_Detection_Project/
